@@ -1,4 +1,20 @@
 const tokens = {
+  "colors.primary": {
+    "value": "#1E293B",
+    "variable": "var(--colors-primary)"
+  },
+  "colors.secondary": {
+    "value": "#3b82f6",
+    "variable": "var(--colors-secondary)"
+  },
+  "colors.white": {
+    "value": "#fff",
+    "variable": "var(--colors-white)"
+  },
+  "colors.tertiary": {
+    "value": "#9d9d9d",
+    "variable": "var(--colors-tertiary)"
+  },
   "sizes.breakpoint-sm": {
     "value": "640px",
     "variable": "var(--sizes-breakpoint-sm)"

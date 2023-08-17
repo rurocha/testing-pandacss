@@ -6,7 +6,8 @@ export default defineNuxtConfig({
 
 
   alias: {
-    'styled-system': resolve('./styled-system')
+    'styled-system': resolve('./styled-system'),
+    'data': resolve('./data'),
   },
  
   css: [

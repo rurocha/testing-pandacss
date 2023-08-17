@@ -1,11 +1,14 @@
 /* eslint-disable */
-export type Token = "sizes.breakpoint-sm" | "sizes.breakpoint-md" | "sizes.breakpoint-lg" | "sizes.breakpoint-xl" | "sizes.breakpoint-2xl" | "breakpoints.sm" | "breakpoints.md" | "breakpoints.lg" | "breakpoints.xl" | "breakpoints.2xl"
+export type Token = "colors.primary" | "colors.secondary" | "colors.white" | "colors.tertiary" | "sizes.breakpoint-sm" | "sizes.breakpoint-md" | "sizes.breakpoint-lg" | "sizes.breakpoint-xl" | "sizes.breakpoint-2xl" | "breakpoints.sm" | "breakpoints.md" | "breakpoints.lg" | "breakpoints.xl" | "breakpoints.2xl"
+
+export type ColorToken = "primary" | "secondary" | "white" | "tertiary"
 
 export type SizeToken = "breakpoint-sm" | "breakpoint-md" | "breakpoint-lg" | "breakpoint-xl" | "breakpoint-2xl"
 
 export type BreakpointToken = "sm" | "md" | "lg" | "xl" | "2xl"
 
 export type Tokens = {
+		colors: ColorToken
 		sizes: SizeToken
 		breakpoints: BreakpointToken
 } & { [token: string]: never }

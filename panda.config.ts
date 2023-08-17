@@ -14,11 +14,35 @@ export default defineConfig({
   theme: {
     // 👇🏻 Define your tokens here
     tokens: {
-      colors: {},
+      colors: {
+        primary: {value: '#1E293B'},
+        secondary: {value: '#3b82f6'},
+        white: {value: '#fff'},
+        tertiary: {value: '#9d9d9d'}
+      },
       fonts: {},
       sizes: {},
     },
-    breakpoints: {}
+    breakpoints: {
+      sm: '640px',
+      md: '768px',
+      lg: '1024px',
+      xl: '1280px',
+      '2xl': '1536px'
+    }
+  },
+
+  globalCss: {
+    "html, body": {
+      "margin": 0,
+      "padding": 0,
+    },
+    '*': {
+      boxSizing:  'border-box',
+    },
+    "img": {
+      width: '100%'
+    }
   },
 
   // The output directory for your css system

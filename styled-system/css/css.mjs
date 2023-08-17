@@ -364,7 +364,7 @@ const shorthands = {
   "y": "translateY"
 }
 
-const breakpointKeys = ["base"]
+const breakpointKeys = ["base","sm","md","lg","xl","2xl"]
 
 const hasShorthand = true
 

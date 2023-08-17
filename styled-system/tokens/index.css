@@ -1,5 +1,9 @@
 @layer tokens {
     :where(:root, :host) {
+  --colors-primary: #1E293B;
+  --colors-secondary: #3b82f6;
+  --colors-white: #fff;
+  --colors-tertiary: #9d9d9d;
   --sizes-breakpoint-sm: 640px;
   --sizes-breakpoint-md: 768px;
   --sizes-breakpoint-lg: 1024px;
