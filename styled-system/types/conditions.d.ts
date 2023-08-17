@@ -89,6 +89,9 @@ export type Conditions = {
 	"_scrollbarTrack": string
 	"_horizontal": string
 	"_vertical": string
+	"xs": string
+	"xsOnly": string
+	"xsDown": string
 	"sm": string
 	"smOnly": string
 	"smDown": string
@@ -103,6 +106,11 @@ export type Conditions = {
 	"xlDown": string
 	"2xl": string
 	"2xlOnly": string
+	"xsToSm": string
+	"xsToMd": string
+	"xsToLg": string
+	"xsToXl": string
+	"xsTo2xl": string
 	"smToMd": string
 	"smToLg": string
 	"smToXl": string
